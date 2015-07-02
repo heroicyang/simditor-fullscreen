@@ -10,6 +10,7 @@ module.exports = (grunt) ->
         options:
           style: 'expanded'
           sourcemap: 'none'
+          bundleExec: true
         files:
           'styles/<%= name %>.css': 'styles/<%= name %>.scss'
 

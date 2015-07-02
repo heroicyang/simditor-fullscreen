@@ -1,6 +1,8 @@
 simditor-fullscreen
 =============
 
+![](https://circleci.com/gh/heroicyang/simditor-fullscreen.png?circle-token=708d36ea11f7ab60fefd70031f870ba8f8fcce15)
+
 Add fullscreen support for Simditor.
 
 ###Usage
