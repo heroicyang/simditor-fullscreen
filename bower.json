@@ -1,0 +1,30 @@
+{
+  "name": "simditor-fullscreen",
+  "version": "0.1.0",
+  "homepage": "https://github.com/heroicyang/simditor-fullscreen",
+  "authors": [
+    "HeroicYang <yangxiong@mycolorway.com>"
+  ],
+  "description": "Add fullscreen support for Simditor.",
+  "main": "lib/simditor-fullscreen.js",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "spec",
+    "node_modules",
+    "vendor",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.coffee",
+    "package.json",
+    "README.md",
+    "demo.html",
+    "circle.yml",
+    "umd.hbs"
+  ],
+  "dependencies": {
+    "jquery": "2.x",
+    "simditor": "2.x"
+  }
+}

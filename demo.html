@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Simditor-fullscreen Demo</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="vendor/bower/simditor/styles/simditor.css" />
+    <link rel="stylesheet" href="styles/simditor-fullscreen.css">
+    <style type="text/css">
+        html, body {
+            background:#F9F9F9;
+            padding: 0;
+            margin: 0;
+            font: 14px/1.6 "Lucida Grande", "Helvetica", sans-serif;
+            color: #333;
+        }
+        .wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            color: rgb(113, 113, 113);
+        }
+        header {
+            margin: 50px 0;
+            text-align: center;
+        }
+        section {
+            margin: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+      <section id="page-demo">
+        <textarea id="txt-content" data-autosave="editor-content" autofocus>
+          <p>Simditor 是团队协作工具 <a href="http://tower.im">Tower</a> 使用的富文本编辑器。</p>
+          <p>相比传统的编辑器它的特点是：</p>
+          <ul>
+            <li>功能精简，加载快速</li>
+            <li>输出格式化的标准 HTML</li>
+            <li>每一个功能都有非常优秀的使用体验</li>
+          </ul>
+        </textarea>
+      </section>
+    </div>
+    <script type="text/javascript" src="vendor/bower/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/bower/simple-module/lib/module.js"></script>
+    <script type="text/javascript" src="vendor/bower/simple-hotkeys/lib/hotkeys.js"></script>
+    <script type="text/javascript" src="vendor/bower/simditor/lib/simditor.js"></script>
+    <script type="text/javascript" src="lib/simditor-fullscreen.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        var editor = new Simditor({
+          textarea: $('#txt-content'),
+          placeholder: '这里输入文字...',
+          toolbar: ['title', 'bold', 'italic', 'underline', 'strikethrough', '|', 'ol', 'ul', 'blockquote', 'code', 'table', '|', 'link', 'image', 'hr', '|', 'indent', 'outdent', '|', 'fullscreen']
+        });
+      });
+    </script>
+</body>
+
+</html>
