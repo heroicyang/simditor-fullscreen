@@ -1,7 +1,8 @@
 {
   "name": "simditor-fullscreen",
   "description": "Add fullscreen support for Simditor.",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "main": "lib/simditor-fullscreen.js",
   "homepage": "https://github.com/heroicyang/simditor-fullscreen",
   "author": {
     "name": "HeroicYang",
@@ -25,5 +26,5 @@
     "grunt-contrib-jasmine": "0.x",
     "grunt-umd": "2.x"
   },
-  "keywords": []
+  "keywords": ["simditor", "fullscreen"]
 }
