@@ -12,7 +12,7 @@ class SimditorFullscreen extends Simditor.Button
   # icon: ''
   # temporary solution
   iconClassOf: ->
-    'icon-fullscreen'
+    'simditor-icon simditor-icon-fullscreen'
 
   _init: ->
     super()

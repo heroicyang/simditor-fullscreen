@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+.simditor-icon-fullscreen {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -23,7 +23,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-fullscreen:before {
+.simditor-icon-fullscreen:before {
 	content: "\e600";
 }
 
